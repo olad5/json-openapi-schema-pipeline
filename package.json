@@ -1,0 +1,24 @@
+{
+  "name": "json-openapi-schema-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "dev": ""
+  },
+  "keywords": [],
+  "author": "Francis Shonubi <shonubioladipo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@openapi-contrib/json-schema-to-openapi-schema": "^3.0.1",
+    "@types/node": "^20.8.7",
+    "json-schema-generator": "^2.0.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/json-schema-generator": "^2.0.3"
+  }
+}
